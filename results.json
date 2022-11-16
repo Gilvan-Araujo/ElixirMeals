@@ -2,18 +2,11 @@
   "excluded": [],
   "failed": [
     {
-      "describe": "Delete Meal",
-      "file": "/home/gilvanjr/Documents/Ignite/Elixir/Exmeal/test/exmeal/meals/delete_test.exs",
-      "line": 25,
-      "module": "Elixir.Exmeal.Meals.DeleteTest",
-      "test": "test Delete Meal when an invalid id is given, returns an error"
-    },
-    {
-      "describe": "Delete Meal",
-      "file": "/home/gilvanjr/Documents/Ignite/Elixir/Exmeal/test/exmeal/meals/delete_test.exs",
+      "describe": "Get Meal",
+      "file": "/home/gilvanjr/Documents/Ignite/Elixir/Exmeal/test/exmeal/meals/get_test.exs",
       "line": 5,
-      "module": "Elixir.Exmeal.Meals.DeleteTest",
-      "test": "test Delete Meal when a valid id is given, returns the meal"
+      "module": "Elixir.Exmeal.Meals.GetTest",
+      "test": "test Get Meal when a valid id is given, returns the meal"
     },
     {
       "describe": "Get Meal",
@@ -23,32 +16,18 @@
       "test": "test Get Meal when an invalid id is given, returns an error"
     },
     {
-      "describe": "Get Meal",
-      "file": "/home/gilvanjr/Documents/Ignite/Elixir/Exmeal/test/exmeal/meals/get_test.exs",
+      "describe": "Delete Meal",
+      "file": "/home/gilvanjr/Documents/Ignite/Elixir/Exmeal/test/exmeal/meals/delete_test.exs",
       "line": 5,
-      "module": "Elixir.Exmeal.Meals.GetTest",
-      "test": "test Get Meal when a valid id is given, returns the meal"
+      "module": "Elixir.Exmeal.Meals.DeleteTest",
+      "test": "test Delete Meal when a valid id is given, returns the meal"
     },
     {
-      "describe": "Create Meal",
-      "file": "/home/gilvanjr/Documents/Ignite/Elixir/Exmeal/test/exmeal/meals/create_test.exs",
-      "line": 22,
-      "module": "Elixir.Exmeal.Meals.CreateTest",
-      "test": "test Create Meal when there are invalid params, returns an error"
-    },
-    {
-      "describe": "Create Meal",
-      "file": "/home/gilvanjr/Documents/Ignite/Elixir/Exmeal/test/exmeal/meals/create_test.exs",
-      "line": 5,
-      "module": "Elixir.Exmeal.Meals.CreateTest",
-      "test": "test Create Meal when all params are valid, returns the meal"
-    },
-    {
-      "describe": "Update Meal",
-      "file": "/home/gilvanjr/Documents/Ignite/Elixir/Exmeal/test/exmeal/meals/update_test.exs",
-      "line": 24,
-      "module": "Elixir.Exmeal.Meals.UpdateTest",
-      "test": "test Update Meal when an invalid id is given, returns an error"
+      "describe": "Delete Meal",
+      "file": "/home/gilvanjr/Documents/Ignite/Elixir/Exmeal/test/exmeal/meals/delete_test.exs",
+      "line": 25,
+      "module": "Elixir.Exmeal.Meals.DeleteTest",
+      "test": "test Delete Meal when an invalid id is given, returns an error"
     },
     {
       "describe": "Update Meal",
@@ -58,11 +37,11 @@
       "test": "test Update Meal when a valid id is given, returns the meal"
     },
     {
-      "describe": "get/2",
-      "file": "/home/gilvanjr/Documents/Ignite/Elixir/Exmeal/test/exmeal_web/controller/meals_controller_test.exs",
-      "line": 130,
-      "module": "Elixir.Exmeal.MealsControllerTest",
-      "test": "test get/2 when id not exist, return an error"
+      "describe": "Update Meal",
+      "file": "/home/gilvanjr/Documents/Ignite/Elixir/Exmeal/test/exmeal/meals/update_test.exs",
+      "line": 24,
+      "module": "Elixir.Exmeal.Meals.UpdateTest",
+      "test": "test Update Meal when an invalid id is given, returns an error"
     },
     {
       "describe": "update/2",
@@ -74,30 +53,16 @@
     {
       "describe": "create/2",
       "file": "/home/gilvanjr/Documents/Ignite/Elixir/Exmeal/test/exmeal_web/controller/meals_controller_test.exs",
-      "line": 26,
+      "line": 5,
       "module": "Elixir.Exmeal.MealsControllerTest",
-      "test": "test create/2 when there are invalid params, returns an error"
-    },
-    {
-      "describe": "delete/2",
-      "file": "/home/gilvanjr/Documents/Ignite/Elixir/Exmeal/test/exmeal_web/controller/meals_controller_test.exs",
-      "line": 43,
-      "module": "Elixir.Exmeal.MealsControllerTest",
-      "test": "test delete/2 when id exist, delete the meal"
-    },
-    {
-      "describe": "update/2",
-      "file": "/home/gilvanjr/Documents/Ignite/Elixir/Exmeal/test/exmeal_web/controller/meals_controller_test.exs",
-      "line": 73,
-      "module": "Elixir.Exmeal.MealsControllerTest",
-      "test": "test update/2 when id exist, update the meal"
+      "test": "test create/2 when all params are valid, creates a meal"
     },
     {
       "describe": "create/2",
       "file": "/home/gilvanjr/Documents/Ignite/Elixir/Exmeal/test/exmeal_web/controller/meals_controller_test.exs",
-      "line": 5,
+      "line": 26,
       "module": "Elixir.Exmeal.MealsControllerTest",
-      "test": "test create/2 when all params are valid, creates a meal"
+      "test": "test create/2 when there are invalid params, returns an error"
     },
     {
       "describe": "get/2",
@@ -109,16 +74,30 @@
     {
       "describe": "delete/2",
       "file": "/home/gilvanjr/Documents/Ignite/Elixir/Exmeal/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 43,
+      "module": "Elixir.Exmeal.MealsControllerTest",
+      "test": "test delete/2 when id exist, delete the meal"
+    },
+    {
+      "describe": "get/2",
+      "file": "/home/gilvanjr/Documents/Ignite/Elixir/Exmeal/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 130,
+      "module": "Elixir.Exmeal.MealsControllerTest",
+      "test": "test get/2 when id not exist, return an error"
+    },
+    {
+      "describe": "delete/2",
+      "file": "/home/gilvanjr/Documents/Ignite/Elixir/Exmeal/test/exmeal_web/controller/meals_controller_test.exs",
       "line": 58,
       "module": "Elixir.Exmeal.MealsControllerTest",
       "test": "test delete/2 when id not exist, return an error"
     },
     {
-      "describe": null,
-      "file": "/home/gilvanjr/Documents/Ignite/Elixir/Exmeal/test/exmeal_web/views/meals_test.exs",
-      "line": 29,
-      "module": "Elixir.ExmealWeb.MealsViewTest",
-      "test": "test render meal.json"
+      "describe": "update/2",
+      "file": "/home/gilvanjr/Documents/Ignite/Elixir/Exmeal/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 73,
+      "module": "Elixir.Exmeal.MealsControllerTest",
+      "test": "test update/2 when id exist, update the meal"
     },
     {
       "describe": null,
@@ -126,6 +105,13 @@
       "line": 10,
       "module": "Elixir.ExmealWeb.MealsViewTest",
       "test": "test render create.json"
+    },
+    {
+      "describe": null,
+      "file": "/home/gilvanjr/Documents/Ignite/Elixir/Exmeal/test/exmeal_web/views/meals_test.exs",
+      "line": 29,
+      "module": "Elixir.ExmealWeb.MealsViewTest",
+      "test": "test render meal.json"
     }
   ],
   "invalid": [],
@@ -138,11 +124,18 @@
       "test": "test changeset/1 when all params are valid, returns a valid changeset"
     },
     {
-      "describe": null,
-      "file": "/home/gilvanjr/Documents/Ignite/Elixir/Exmeal/test/exmeal_web/views/error_view_test.exs",
-      "line": 11,
-      "module": "Elixir.ExmealWeb.ErrorViewTest",
-      "test": "test renders 500.json"
+      "describe": "Create Meal",
+      "file": "/home/gilvanjr/Documents/Ignite/Elixir/Exmeal/test/exmeal/meals/create_test.exs",
+      "line": 5,
+      "module": "Elixir.Exmeal.Meals.CreateTest",
+      "test": "test Create Meal when all params are valid, returns the meal"
+    },
+    {
+      "describe": "Create Meal",
+      "file": "/home/gilvanjr/Documents/Ignite/Elixir/Exmeal/test/exmeal/meals/create_test.exs",
+      "line": 22,
+      "module": "Elixir.Exmeal.Meals.CreateTest",
+      "test": "test Create Meal when there are invalid params, returns an error"
     },
     {
       "describe": null,
@@ -150,6 +143,13 @@
       "line": 7,
       "module": "Elixir.ExmealWeb.ErrorViewTest",
       "test": "test renders 404.json"
+    },
+    {
+      "describe": null,
+      "file": "/home/gilvanjr/Documents/Ignite/Elixir/Exmeal/test/exmeal_web/views/error_view_test.exs",
+      "line": 11,
+      "module": "Elixir.ExmealWeb.ErrorViewTest",
+      "test": "test renders 500.json"
     }
   ],
   "skiped": []
